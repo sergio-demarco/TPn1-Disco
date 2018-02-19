@@ -9,9 +9,9 @@ public class DiscoTest {
 	
 	@Test
 	public void testQueVerificaRadioInterior() {
-		Disco miDisco = new Disco(10.0,30.0);
+		Disco miDisco = new Disco(20.0,30.0);
 		Double actual = miDisco.getRadioInterior();
-		Double esperado = 10.0;
+		Double esperado = 20.0;
 		assertEquals(esperado, actual);
 	}
 	
@@ -25,9 +25,9 @@ public class DiscoTest {
 	
 	@Test
 	public void testQueVerificaPerimetroInterior() {
-		Disco miDisco = new Disco(10.0,30.0);
+		Disco miDisco = new Disco(20.0,30.0);
 		Double actual = miDisco.getPerimetroInterior();
-		Double esperado = 10.0*2*3.141592;
+		Double esperado = 20.0*2*3.141592;
 		assertEquals(esperado, actual);
 	}
 	
